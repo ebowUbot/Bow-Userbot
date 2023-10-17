@@ -3,7 +3,7 @@
   "description": "[Ebow-Userbot] Selamat pakai, Luh songong gw Banting",
   "logo": "https://telegra.ph/file/05c7982e106962b905ef4.jpg",
   "keywords": ["telegram", "userbot", "Ebow-Userbot", "modular", "python"],
-  "repository": "https://github.com/ionmusic/Kazu-Userbot",
+  "repository": "https://github.com/ebowUbot/Bow-Userbot.git",
   "stack": "container",
   "env": {
     "API_KEY": {
