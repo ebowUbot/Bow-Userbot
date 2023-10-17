@@ -1,7 +1,7 @@
 <h1 align="center"> ⚡ EBOW-USERBOT</h1>
 
 <p align="center">
-  <img src="https://telegra.ph/file/a38745137e65f2d74de06.jpg">
+  <img src="https://telegra.ph/file/2b62b08d5c8a069e81099.jpg">
 </p>
 
 👩‍💻 EBOW-USERBOT adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
@@ -37,9 +37,9 @@ Selamat bersenang-senang.
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/ionmusic/Kazu-Userbot`
+ • `git clone https://github.com/ebowUbot/Bow-Userbot.git`
 
- • `cd Kazu-Userbot`
+ • `cd Bow-Userbot`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -51,7 +51,7 @@ Selamat bersenang-senang.
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S Kazu-Userbot`
+ • `screen -S Bow-Userbot`
 
  • `bash start`
 
@@ -61,22 +61,14 @@ Selamat bersenang-senang.
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/ionmusic/Kazu-Userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
-
-</details>
-
-<details>
-<summary><b>🔗 Deploy To Bot Heroku</b></summary>
-<br>
-
-<p><a href="https://telegram.dog/XTZ_HerokuBot?start=aW9ubXVzaWMvS2F6dS1Vc2VyYm90IEthenUtVXNlcmJvdA=="><img src="https://img.shields.io/badge/BUAT DI -BOT HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" height="45" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/ebowUbot/Bow-Userbot.git"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 
 </details>
 
 ## Updates & Support
 
-Follow Channel [Kazu Session](https://t.me/Html12text) untuk info Update bot dan Gabung Group [Kazu Support](https://t.me/kazusupportgrp) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Kazu-Userbot.
+Follow Channel [Ebow Session](https://t.me/c0dsx) untuk info Update bot dan Gabung Group [Kazu Support](https://t.me/kazusupportgrp) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Kazu-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
