@@ -332,7 +332,7 @@ del _WHITELIST
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "Kazu-Userbot"
+    session = "Ebow-Userbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -740,7 +740,7 @@ with bot:
                 await event.edit(buttons=buttons)
             else:
                 reply_pop_up_alert = (
-                    f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
+                    f"ʜᴀʜᴀʜᴀ ɢᴀ ᴅɪɪᴢɪɴɪɴ ʏᴀᴋ, ɪɴɪ ʜᴀɴʏᴀ ᴍɪʟɪᴋ {owner}"
                 )
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
@@ -799,7 +799,7 @@ with bot:
                         pass
 
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nOi puki Lu Gak ada Hak Untuk Menekan Tombol Button Ini"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(events.CallbackQuery(data=b"inline_yins"))
@@ -810,16 +810,16 @@ with bot:
 """,
                                  buttons=[
                                      [
-                                         Button.inline("⍟ ᴠᴄ ᴘʟᴜɢɪɴ ⍟",
+                                         Button.inline("❏ VC PLUGIN ⍟",
                                                        data="vcplugin"),
-                                         Button.inline("⍟ ᴠᴄ ᴛᴏᴏʟs ⍟",
+                                         Button.inline("❏ VC TOOLS",
                                                        data="vctools")],
                                      [custom.Button.inline(
-                                         "ʙᴀᴄᴋ", data="gcback")],
+                                         "BACK", data="gcback")],
                                  ]
                                  )
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nOi Puki Lu Gak Ada Hak Untuk Menekan Tombol Button Ini"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -861,9 +861,9 @@ with bot:
                     text,
                     file=logoyins,
                     link_preview=True,
-                    buttons=[Button.inline("ʙᴀᴄᴋ", data="inline_yins")])
+                    buttons=[Button.inline("BACK", data="inline_yins")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nOi Puki Lu Gak Ada Hak Untuk Menekan Tombol Button Ini"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -899,7 +899,7 @@ with bot:
                     text,
                     file=logoyins,
                     link_preview=True,
-                    buttons=[Button.inline("ʙᴀᴄᴋ", data="inline_yins")])
+                    buttons=[Button.inline("BACK", data="inline_yins")])
             else:
                 reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
@@ -912,16 +912,16 @@ with bot:
 """,
                                  buttons=[
                                      [
-                                         Button.inline("⍟ ʙᴛᴘᴍ ⍟",
+                                         Button.inline("❏ BTPM EBOW",
                                                        data="btpmayiin"),
-                                         Button.inline("⍟ ʏɪɴs ʙᴏᴋᴇᴘ ⍟",
+                                         Button.inline("❏ BOKEP",
                                                        data="yinsbokep")],
                                      [custom.Button.inline(
-                                         "ʙᴀᴄᴋ", data="gcback")],
+                                         "BACK", data="gcback")],
                                  ]
                                  )
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nOi Puki Lu Gak Ada Hak Untuk Menekan Tombol Button Ini"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -954,9 +954,9 @@ with bot:
                     text,
                     file=logoyins,
                     link_preview=True,
-                    buttons=[Button.inline("ʙᴀᴄᴋ", data="konten_yins")])
+                    buttons=[Button.inline("BACK", data="konten_yins")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nOi Puki Lu Gak Ada Hak Untuk Menekan Tombol Button Ini"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -968,7 +968,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 text = (
                     f"""
-✘ **Perintah yang tersedia di yins bokep** ✘
+✘ **Perintah yang tersedia di bokep** ✘
 
   »  **Perintah : **`{cmd}bokp`
   »  **Kegunaan :** __Untuk Mengirim bokp secara random.__
@@ -977,9 +977,9 @@ with bot:
                     text,
                     file=logoyins,
                     link_preview=True,
-                    buttons=[Button.inline("ʙᴀᴄᴋ", data="konten_yins")])
+                    buttons=[Button.inline("BACK", data="konten_yins")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nOi Puki Lu Gak Ada Hak Untuk Menekan Tombol Button Ini"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -1003,17 +1003,17 @@ with bot:
                     text,
                     file=logoyins,
                     link_preview=True,
-                    buttons=[Button.inline("ʙᴀᴄᴋ", data="gcback")])
+                    buttons=[Button.inline("BACK", data="gcback")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nOi Puki Lu Gak Ada Hak Untuk Menekan Tombol Button Ini"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(events.CallbackQuery(data=b"close"))
         async def close(event):
             buttons = [
-                (custom.Button.inline("ᴍᴀɪɴ ᴍᴇɴᴜ", data="gcback"),),
+                (custom.Button.inline("MAIN MENU", data="gcback"),),
             ]
-            await event.edit("**ᴍᴇɴᴜ ᴅɪᴛᴜᴛᴜᴘ**", file=logoyins, buttons=buttons)
+            await event.edit("**MENU DITUTUP**", file=logoyins, buttons=buttons)
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -1071,7 +1071,7 @@ with bot:
                 )
 
             else:
-                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
+                reply_pop_up_alert = f"ʜᴀʜᴀʜᴀ ɢᴀ ᴅɪɪᴢɪɴɪɴ ʏᴀᴋ, ɪɴɪ ʜᴀɴʏᴀ ᴍɪʟɪᴋ {owner}"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     except BaseException:
