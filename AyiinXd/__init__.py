@@ -172,8 +172,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "kazusupportgrp")
-CHANNEL = os.environ.get("CHANNEL", "Html12text")
+GROUP = os.environ.get("GROUP", "publiktn")
+CHANNEL = os.environ.get("CHANNEL", "C0dsx")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -187,7 +187,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/ionmusic/Kazu-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/ebowUbot/Bow-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -217,19 +217,19 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
+    "ʜᴀʟʟᴏ ᴛᴏᴅ! ɢᴜᴀ ᴘᴇɴɢɢᴜɴᴀ ᴇʙᴏᴡ ᴜsᴇʀʙᴏᴛ ×͜×")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", " 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", " ᴇʙᴏᴡ ᴜsᴇʀʙᴏᴛ")
 
 # Custom Emoji Alive
-ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✨")
+ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "🥵")
 
 # Custom Emoji Alive
-INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "✨")
+INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "🥵")
 
 # Custom icon HELP
-ICON_HELP = os.environ.get("ICON_HELP", "✨")
+ICON_HELP = os.environ.get("ICON_HELP", "💦")
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", "ID"))
