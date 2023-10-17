@@ -18,12 +18,12 @@ from AyiinXd.ayiin import ayiin_version as py_ver
 from AyiinXd.ayiin import HOSTED_ON, checking
 
 MSG_ON = """
-❏ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
+❏ ᴇʙᴏᴡ ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
 ╭╼┅━━━━━╍━━━━━┅╾
-├▹ 𝙺𝙰𝚉𝚄 Vᴇʀsɪᴏɴ - {} •[{}]•
-├▹ 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 Vᴇʀsɪᴏɴ - {}
+├▹ ᴇʙᴏᴡ ᴠᴇʀsɪᴏɴ - {} •[{}]•
+├▹ ᴜsᴇʀʙᴏᴛ ᴠᴇʀsɪᴏɴ - {}
 ├▹ @disinikazu-Userbot
-├▹ Kᴇᴛɪᴋ .alive Uɴᴛᴜᴋ Mᴇɴɢᴇᴄᴇᴋ Bᴏᴛ
+├▹ ᴋᴇᴛɪᴋ .alive ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴄᴇᴋ ʙᴏᴛ
 ╰╼┅━━━━━╍━━━━━┅╾
 """
 
