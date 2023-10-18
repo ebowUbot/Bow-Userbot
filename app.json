@@ -1,9 +1,9 @@
 {
-  "name": "Bow-Userbot",
-  "description": "[Bow-Userbot] Selamat pakai, Luh songong gw Entod",
+  "name": "• 𝙀𝙗𝙤𝙬 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 •",
+  "description": "[Bow-Ubot] Selamat pakai, Luh songong gw Entod",
   "logo": "https://telegra.ph/file/f2ec6a6a80707dd1eb445.jpg",
-  "keywords": ["telegram", "userbot", "Bow-Userbot", "modular", "python"],
-  "repository": "https://github.com/ebowUbot/Bow-Userbot.git",
+  "keywords": ["telegram", "userbot", "Bow-Ubot", "modular", "python"],
+  "repository": "https://github.com/ebowsxyz/Bow-Ubot",
   "stack": "container",
   "env": {
     "API_KEY": {
