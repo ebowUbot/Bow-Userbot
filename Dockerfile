@@ -4,13 +4,13 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Bow-Userbot https://github.com/ebowUbot/Bow-Userbot.git /home/ebowuserbot/ \
-    && chmod 777 /home/ebowuserbot \
-    && mkdir /home/Ebowuserbot/bin/
+RUN git clone -b Bow-Ubot https://github.com/ebowsxyz/Bow-Ubot /home/bowuserbot/ \
+    && chmod 777 /home/bowuserbot \
+    && mkdir /home/bowuserbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/ebowuserbot/
+#COPY ./sample_config.env ./config.env* /home/bowuserbot/
 
-WORKDIR /home/ebowuserbot/
+WORKDIR /home/bowuserbot/
 
 RUN pip install -r requirements.txt
 
