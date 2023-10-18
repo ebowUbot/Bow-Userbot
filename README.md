@@ -37,9 +37,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/ebowsxyz/Ebow-Userbot`
+ • `git clone https://github.com/ebowsxyz/Bow-Ubot`
 
- • `cd Ebow-Userbot`
+ • `cd Ebow-Ubot`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -51,7 +51,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S Ebow-Userbot`
+ • `screen -S Ebow-Ubot`
 
  • `bash start`
 
@@ -61,7 +61,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/ebowsxyz/Ebow-Userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/ebowsxyz/Ebow-Ubot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 </details>
 
